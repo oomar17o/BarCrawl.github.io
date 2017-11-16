@@ -13,51 +13,43 @@
 </head>
 <body class="jumbotron">
 
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">BarCrawl</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="Home.html">Home</a></li>
+            <li><a href="/Users/omar/Desktop/BarCrawl-Menu-Submissions-master/Login/LoginPage.html">LogIn</a></li>
+
+            <li><a href="/Users/omar/Desktop/BarCrawl-Menu-Submissions-master/DocumentsPage/UploadDocuments.html">Upload Documents</a></li>
+            <li><a href="/Users/omar/Desktop/BarCrawl-Menu-Submissions-master/DrinksPage/SearchDrinks.html">Search Drinks</a></li>
+        </ul>
+    </div>
+</nav>
+
+</nav>
+
 <div class="container">
-    <h3>Login</h3>
-    <p>Please enter the Login Credentials for you Bar</p>
+    <h3>Basic Navbar Example</h3>
+    <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
 </div>
 
 
 <div id="id01">
 
 
+    
 
-    <form class="modal-content animate" action="/action_page.php">
-
-
-
-
-        <label><b>Username</b></label>
-
-        <input type="text" placeholder="Enter Username" name="uname" required>
-
-
-        <label><b>Password</b></label>
-
-        <input type="password" placeholder="Enter Password" name="psw" required>
-
-        <a href="UploadDocuments.html" class="btn btn-info" role="button">LOGIN</a>
-
-        <input type="checkbox" checked="checked"> Remember me
-
-
-
-        <div class="container" style="background-color:#f1f1f1">
-
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-
-            <span class="psw">Forgot <a href="#">password?</a></span>
-
-
-            <p>
-
-            <h6>Need Help? Contact Us:</h6><a href="mailto:bar.crawl.dev@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
-
-            </p>
-        </div>
-    </form>
+  <form action="upload.php" method="POST" enctype="multipart/form-data">
+	<input type="file" name="file">
+	<button type="submit" name="submit">UPLOAD</button>
+</form>
 
 </div>
+
 </body>
 </html>
+
+
+
